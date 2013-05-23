@@ -1,0 +1,23 @@
+﻿@{
+    Layout = "~/Views/Shared/_BaseLayout.cshtml";
+}
+<div class="masthead">
+    <ul class="nav nav-pills pull-right">
+        <li class="active"><a href="/">Home</a></li>
+        <li><a href="javascript:void(0)" onclick="harlemShake()">Harlem Shake bonus</a></li>
+    </ul>
+    <h3 class="muted"><a href="/">Twitter Challenge</a></h3>
+</div>
+
+<hr />
+@RenderBody()
+<hr />
+
+<div class="footer">
+    <p>&copy; Company @DateTime.Now.Year</p>
+</div>
+@section scripts
+{
+    <script type="text/javascript" src="~/Scripts/harlem-shake.js"></script>
+    @RenderSection("scripts", required: false)
+}

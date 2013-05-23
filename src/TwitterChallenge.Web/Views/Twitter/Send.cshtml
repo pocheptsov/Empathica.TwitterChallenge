@@ -1,0 +1,27 @@
+﻿@model StatusViewModel
+<form method="POST" action="/Twitter/UpdateStatus" class="form-status">
+    <div class="control-group">
+        @Html.AntiForgeryToken()
+        <h2 class="form-signin-heading">@R[Rk.Hello]</h2>
+        @Html.ValidationMessageFor(_ => _.Status)
+        <textarea id="status" name="status" class="input-block-level" placeholder="Compose new tweet..." rows="6">@Model.Status</textarea>
+        <br />
+        <br />
+        <button class="btn btn-large btn-primary" type="submit">@R[Rk.BtnDoneText]</button>
+    </div>
+</form>
+
+@section scripts
+{
+    <script type="text/javascript" src="~/Scripts/charCount.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#status").charCount({
+                allowed: 140,
+                warning: 20,
+                counterText: 'Characters left: ',
+                cssExceeded: 'error'
+            });
+        });
+</script>
+}

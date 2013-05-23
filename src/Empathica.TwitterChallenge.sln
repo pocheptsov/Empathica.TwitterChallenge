@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterChallenge.Web", "TwitterChallenge.Web\TwitterChallenge.Web.csproj", "{C4B782FC-D6B1-45FF-9DFB-BB1CD657B3E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterChallenge.AppConsole", "TwitterChallenge.AppConsole\TwitterChallenge.AppConsole.csproj", "{B7B37B87-B90A-4944-BEE9-BFE2C276DB69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9D178549-6153-4BCB-BDF2-D85A0FEFA7EA}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterChallenge.Db", "TwitterChallenge.Db\TwitterChallenge.Db.csproj", "{380D985B-44BE-4286-BE1B-1D1380264863}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterChallenge.Wires", "TwitterChallenge.Wires\TwitterChallenge.Wires.csproj", "{80167324-E945-4A24-AC1D-DA6386E40E88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterChallenge.Tests", "TwitterChallenge.Tests\TwitterChallenge.Tests.csproj", "{F51DD67E-269B-4C49-853A-C3A16DF9DC7F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4B782FC-D6B1-45FF-9DFB-BB1CD657B3E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4B782FC-D6B1-45FF-9DFB-BB1CD657B3E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4B782FC-D6B1-45FF-9DFB-BB1CD657B3E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4B782FC-D6B1-45FF-9DFB-BB1CD657B3E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7B37B87-B90A-4944-BEE9-BFE2C276DB69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7B37B87-B90A-4944-BEE9-BFE2C276DB69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7B37B87-B90A-4944-BEE9-BFE2C276DB69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7B37B87-B90A-4944-BEE9-BFE2C276DB69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{380D985B-44BE-4286-BE1B-1D1380264863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{380D985B-44BE-4286-BE1B-1D1380264863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{380D985B-44BE-4286-BE1B-1D1380264863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{380D985B-44BE-4286-BE1B-1D1380264863}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80167324-E945-4A24-AC1D-DA6386E40E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80167324-E945-4A24-AC1D-DA6386E40E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80167324-E945-4A24-AC1D-DA6386E40E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80167324-E945-4A24-AC1D-DA6386E40E88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F51DD67E-269B-4C49-853A-C3A16DF9DC7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F51DD67E-269B-4C49-853A-C3A16DF9DC7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F51DD67E-269B-4C49-853A-C3A16DF9DC7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F51DD67E-269B-4C49-853A-C3A16DF9DC7F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
